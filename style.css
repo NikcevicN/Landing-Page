@@ -1,6 +1,19 @@
+body {
+    margin: 0;
+    width: 100vh;
+}
 .card {
     max-width: 250px;
 }
 .card-image {
     max-width: 250px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+ul {
+    display: flex;
+    gap: 40px;
 }
