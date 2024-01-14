@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    width: 100vh;
+    width: 100vw;
+    height: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .card {
@@ -28,4 +29,35 @@ a, li{
 a {
     font-size: 24px;
     
+}
+.below-header {
+    display: flex;
+    width:100vw;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: #1f2937;
+    align-items: center;
+}
+.below-text {
+    flex-direction: column;
+    max-width: 25vw;
+    color: white;
+}
+.h1-about {
+    margin: 10px 20px 0px 0px;
+}
+.below-text p {
+    margin-top: 5px;
+}
+.below-header img {
+   justify-content: start;
+    
+}
+.below-text button {
+    width: 5vw;
+    height: 2vw;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    border: 0px;
 }
