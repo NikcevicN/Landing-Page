@@ -81,6 +81,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    padding: 10px 0 20px 0;
 }
 .card {
     text-align: center;  
@@ -88,5 +89,39 @@ a {
 .main h2 {
     font-size: 36px;
     font-weight: bold;
-    padding: 15px 0 20px 0;
+    padding: 15px 0 50px 0;
+}
+.below-main {
+    width: 100vw;
+    padding: 40px 0 20px 0;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+.below-main-text {
+    max-width: 40vw;
+    font-size: 26px;
+    font-weight: 300;
+}
+.below-main-text h4 {
+    text-align: end;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.before-footer {
+    padding: 100px 0px 20px 0;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.blue-screen {
+    display: flex;
+    width: 40vw;
+    gap: 30px;
+    justify-content: center;
+    background-color: #3882f6;
+    height: 20vh;
+    align-items: center;
 }
