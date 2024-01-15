@@ -118,10 +118,26 @@ a {
 }
 .blue-screen {
     display: flex;
-    width: 40vw;
-    gap: 30px;
-    justify-content: center;
+    width: 50vw;
+    gap: 20px;
+    justify-content: space-evenly;
     background-color: #3882f6;
     height: 20vh;
     align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.text {
+    max-width: 20vw;
+    max-height: 20vh;
+}
+.blue-screen button {
+    width: 7vw;
+    height: 2vw;
+    border: 2px solid white;
+    color:white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    cursor: pointer;
+  
 }
