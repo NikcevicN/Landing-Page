@@ -30,8 +30,8 @@ To get started with the Formula 1 Landing Page, simply clone the repository and 
 
 bash
 Copy code
-git clone https://github.com/NikcevicN/formula-1-landing-page.git
-cd formula-1-landing-page
+git clone git@github.com:NikcevicN/Landing-Page.git
+cd Landing-Page
 Usage
 Explore the different sections of the website by clicking on the navigation links. Dive into details about Formula 1, learn about the teams, and get inspired by the Ayrton Senna quote.
 
