@@ -8,7 +8,10 @@ body {
     max-width: 250px;
 }
 .card-image {
-    max-width: 250px;
+    max-width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 120px;
 }
 .header {
     display: flex;
@@ -60,4 +63,20 @@ a {
     border-radius: 15px;
     color: white;
     border: 0px;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    text-align: center;  
 }
